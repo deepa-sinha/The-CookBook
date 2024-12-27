@@ -493,5 +493,8 @@ main {
     width: 20px;
     height: 1px;
   }
+
+  .container{
+    margin: 0;
+  }
 }
- 
