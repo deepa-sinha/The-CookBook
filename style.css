@@ -17,6 +17,20 @@ body {
   background-repeat: no-repeat;
 }
 
+footer{
+  position: absolute;
+  bottom: 30;
+  width: 100vw;
+  text-align: center;
+  color: #fffefe;
+  a{
+    text-decoration: none;
+    color: rgb(249, 124, 35);
+    font-weight: bolder;
+  }
+  
+}
+
 .search-page::before {
   content: "";
   position: absolute;
@@ -404,7 +418,7 @@ main {
   }
 
   .search-heading {
-    font-size: 25px;
+    font-size: 20px;
     padding: 0 10px;
   }
 
@@ -497,4 +511,8 @@ main {
   .container{
     margin: 0;
   }
+  .search-input, .search-btn{
+    color: #ffffff;
+  }
+  
 }
